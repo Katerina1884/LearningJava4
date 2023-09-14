@@ -11,19 +11,21 @@ public class ArrayMinMaxSum {
         System.out.println("Сумма между минимальным и максимальным: " + sum);
     }
 
-public static int getMin(int[] array) {
-    int min = array[0];
-    for (int i = 1; i < array.length; i++)
-        if (array[i] < min) {
-            min = array[i];
-        }
-    return min;
-}
+    public static int getMin(int[] array) {
+        int min = array[0];
+        for (int i = 1; i < array.length; i++)
+            if (array[i] < min) {
+                min = array[i];
+            }
+        return min;
+    }
 
     public static int getMax(int[] array) {
         int max = array[0];
         for (int i = 1; i < array.length; i++) {
-            if (array[i] > max) max = array[i];
+            if (array[i] > max) {
+                max = array[i];
+            }
         }
         return max;
     }
