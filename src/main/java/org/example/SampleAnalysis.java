@@ -2,17 +2,18 @@ package org.example;
 
 public class SampleAnalysis {
     public static void main(String[] args) {
+        int[] values = {1, 2, 3, 4, 5, 6, 7, 8, 9};
         int group1 = 0;
         int group2 = 0;
         int group3 = 0;
-        for(int i = 0; i<=9; i++) {
-            if(i >= 1 && i<=3) {
+        for(int value : values) {
+            if(value >= 1 && value<=3) {
                 group1++;
             }
-            else if(i>=4 && i<=6) {
+            else if(value>=4 && value<=6) {
                 group2++;
             }
-            else if(i>=7 && i<=9) {
+            else {
                 group3++;
             }
         }
