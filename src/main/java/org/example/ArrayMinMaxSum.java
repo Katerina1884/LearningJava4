@@ -15,7 +15,7 @@ public class ArrayMinMaxSum {
         int min = array[0];
         for (int i = 1; i < array.length; i++)
             if (array[i] < min) {
-                min = array[i];
+                min = array[i]; //пусть сразу возвращают индексы
             }
         return min;
     }

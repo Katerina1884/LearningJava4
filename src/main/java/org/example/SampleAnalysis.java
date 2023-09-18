@@ -7,12 +7,10 @@ public class SampleAnalysis {
         int group2 = 0;
         int group3 = 0;
         for(int value : values) {
-            if(value >= 1 && value<=3) {
+            if(value<=3) {
                 group1++;
             }
-            else if(value>=4 && value<=6) {
-                group2++;
-            }
+            else if(value<=6) group2++;
             else {
                 group3++;
             }

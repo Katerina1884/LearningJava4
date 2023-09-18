@@ -13,7 +13,7 @@ public class PossibilitiesArray {
             boolean[] visited = new boolean[n];
             for (int j : a) {
                 if (j >= 0 && j < n) {
-                    visited[j] = true;
+                    visited[j] = true; //если длина 0, то возвращаем false
                 }
                 else return false;
             }
