@@ -2,7 +2,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TwoNumbers {
+public class ConsecutiveItems {
     public static void main(String[] args) {
         List<Object> arr = new ArrayList<>();
         arr.add(1);
