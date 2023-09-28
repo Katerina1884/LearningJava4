@@ -4,7 +4,7 @@ import java.util.List;
 
 public class ConsecutiveItems {
     public static void main(String[] args) {
-        List<Object> arr = new ArrayList<>();
+        List<Integer> arr = new ArrayList<>();
         arr.add(1);
         arr.add(2);
         for (int i = 3; i < 6; i++) {
@@ -18,7 +18,7 @@ public class ConsecutiveItems {
         System.out.println(result);
     }
 
-    public static boolean isSequential(List<Object> arr, int a, int b) {
+    public static boolean isSequential(List<Integer> arr, int a, int b) {
         int indexA = arr.indexOf(a);
         int indexB = arr.indexOf(b);
 
